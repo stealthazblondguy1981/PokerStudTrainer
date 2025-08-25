@@ -18,23 +18,25 @@ export default defineConfig({
         name: "Poker Stud Trainer",
         short_name: "PokerStud",
         description: "Train, simulate, and study poker hands like a pro.",
-        theme_color: "#111827",
-        background_color: "#111827",
+        start_url: ".",
+        scope: ".",
         display: "standalone",
         orientation: "portrait",
+        theme_color: "#111827",
+        background_color: "#111827",
         icons: [
           {
-            src: "icon-192.png",
+            src: "/icon-192.png",
             sizes: "192x192",
             type: "image/png"
           },
           {
-            src: "icon-512.png",
+            src: "/icon-512.png",
             sizes: "512x512",
             type: "image/png"
           },
           {
-            src: "maskable-512.png",
+            src: "/maskable-512.png",
             sizes: "512x512",
             type: "image/png",
             purpose: "maskable"
